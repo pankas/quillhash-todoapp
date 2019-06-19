@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  /* color: #61DAFB; */
+  overflow-x: hidden;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+.form-inline .form-control {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #61DAFB;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
+
+.list-group{
+  /* padding: 5%; */
+  background: white;
+  /* border-radius: 5px; */
+}
+
+.add{
+  width: 15%;
+}
+
+.expand{
+  width: 150%
+}
